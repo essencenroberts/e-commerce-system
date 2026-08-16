@@ -32,7 +32,7 @@ async function initApp() {
       );
     }); 
 // loop through  .forEach()
-    products.forEach((product) => {
+    products.forEach((product: any) => {
       console.log(product.displayDetails());
       console.log("Price with discount:", product.getPriceWithDiscount());
       console.log("Tax:", calculateTax(product.price, product.category));
