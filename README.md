@@ -21,7 +21,7 @@ A product manageyment app built with Vanilla TypeScript, Vite and TailwindCSS. I
         taxCalculator.ts
         errorHandler.ts
     index.ts
-
+  ```
 
 ## Features
   - fetch product data from the DummyJSON API
